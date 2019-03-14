@@ -1,6 +1,7 @@
 package com.qaagility.controller;
 
 import com.qaagility.javaee.*;
+import com.qaagility.javaee.Calcmul;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -33,7 +34,7 @@ public class CalcTest {
 	Calcmul pp=new Calcmul();
 	Calculator cl=new Calculator();
 	int res=pp.mul();
-	int res1=cl.add;
+	int res1=cl.add();
 	assertEquals(pp.mul(),18);
 	assertEquals(cl.add(),9);
 	
