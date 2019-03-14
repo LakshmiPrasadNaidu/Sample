@@ -35,7 +35,7 @@ public class CalcTest {
 	int res=pp.mul();
 	int res1=cl.add;
 	assertEquals(pp.mul(),18);
-	assertEquals(pp.add(),9);
+	assertEquals(cl.add(),9);
 	
 	}
 	
